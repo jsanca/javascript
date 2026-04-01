@@ -1,2 +1,3 @@
 # javascript
-Projects associated to Javascript
+JavaScript Projects
+
