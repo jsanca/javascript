@@ -1,0 +1,23 @@
+meta {
+  name: CreateTask
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/tasks
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title":"Tarea1",
+    "description":"Esta es la tarea 1"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
